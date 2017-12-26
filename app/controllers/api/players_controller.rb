@@ -37,14 +37,11 @@ class API::PlayersController < ApplicationController
   private
 
     def player_params
-      params.require(:player).permit(:last_name, :first_name, :jersey_number, :position, :height, :weight, :age, :birth_city, :birth_country, :image_url, :team_id)
+      params.require(:player).permit(:last_name, :first_name, :jersey_number, :position, :image_url, :team_id)
     end
 
     def set_player
       @player = Player.find_by(id: params[:id])
     end
-
-
-
 
 end
