@@ -1,4 +1,4 @@
 class PlayerSerializer < ActiveModel::Serializer
-  attributes :id, :last_name, :first_name, :jersey_number, :position, :image_url
+  attributes :id, :last_name, :first_name, :jersey_number, :position, :image_url, :votes
   belongs_to :team
 end
