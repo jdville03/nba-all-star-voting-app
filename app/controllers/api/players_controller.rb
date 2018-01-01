@@ -28,7 +28,7 @@ class API::PlayersController < ApplicationController
 
   def destroy
     if @player.destroy
-      render status: 204
+      render json: @player
     else
       render json: { message: "Unable to remove this player" }, status: 400
     end
