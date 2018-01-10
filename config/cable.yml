@@ -7,4 +7,4 @@ test:
 production:
   adapter: redis
   url: redis://localhost:6379/1
-  channel_prefix: sports-voting-api_production
+  channel_prefix: nba-all-star-voting-app_production
