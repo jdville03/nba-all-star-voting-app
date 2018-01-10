@@ -1,0 +1,3 @@
+[submodule "nba-all-star-voting-client"]
+	path = nba-all-star-voting-client
+	url = https://github.com/Jdville03/nba-all-star-voting-client
